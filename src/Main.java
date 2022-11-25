@@ -10,5 +10,34 @@ public class Main {
         }
         System.out.println("2 459 000 рублей накопит за "+i+" месяцев");
         System.out.println("____________________________");
+
+        // задание 2
+
+        int number = 1;
+        i=0;
+        while (number<=10) {
+            System.out.print(number+" ");
+            number++;
+        }
+        System.out.println(" ");
+
+        for (i=10; i>0; i--) {
+            System.out.print(i+" ");
+        }
+        System.out.println(" ");
+        System.out.println("____________________________");
+
+        // задание 3
+
+        int people = 12_000_000;
+        int year = 1;
+        int birthRate = 17;
+        int mortality = 8;
+        while (year<=10) {
+            System.out.println("год " + year + " численность населения составляет " + people + " человек");
+            year++;
+            people = people + people / 1000 * (birthRate - mortality);
+        }
+        System.out.println("____________________________");
     }
 }
