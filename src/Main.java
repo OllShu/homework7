@@ -31,10 +31,12 @@ public class Main {
 
         int people = 12_000_000;
         int year = 1;
+        int birthRate = 17;
+        int mortality = 8;
         while (year<=10) {
             System.out.println("год " + year + " численность населения составляет " + people + " человек");
             year++;
-            people = people + people / 1000 * (17 - 8);
+            people = people + people / 1000 * (birthRate - mortality);
         }
         System.out.println("____________________________");
     }
