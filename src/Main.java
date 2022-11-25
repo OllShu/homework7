@@ -26,5 +26,16 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("____________________________");
+
+        // задание 3
+
+        int people = 12_000_000;
+        int year = 1;
+        while (year<=10) {
+            System.out.println("год " + year + " численность населения составляет " + people + " человек");
+            year++;
+            people = people + people / 1000 * (17 - 8);
+        }
+        System.out.println("____________________________");
     }
 }
