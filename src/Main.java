@@ -58,7 +58,7 @@ public class Main {
         System.out.println("____________________________");
 
         // задание 3 второй домашки урока
-        System.out.println("задание 2 второй домашки урока");
+        System.out.println("задание 3 второй домашки урока");
         System.out.println(".");
 
         capital = 15000;
@@ -74,5 +74,12 @@ public class Main {
 
 
         System.out.println("____________________________");
+
+        // задание 4 второй домашки урока
+
+        //  System.out.println("задание 4 второй домашки урока");
+        //System.out.println(".");
+
+        //System.out.println("____________________________");
     }
 }
