@@ -77,9 +77,17 @@ public class Main {
 
         // задание 4 второй домашки урока
 
-        //  System.out.println("задание 4 второй домашки урока");
-        //System.out.println(".");
+        System.out.println("задание 4 второй домашки урока");
+        System.out.println(".");
 
-        //System.out.println("____________________________");
+        int firstFriday = 7;
+        i=1;
+        while (i<=31) {
+            if (i==firstFriday || (i-firstFriday)%7==0) {
+                System.out.println("Сегодня пятница, " +i+ " число. Необходимо подготовить отчет.");
+            }  i++;
+        }
+
+        System.out.println("____________________________");
     }
 }
