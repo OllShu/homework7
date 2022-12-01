@@ -105,7 +105,20 @@ public class Main {
             } i++;
         }
 
+        System.out.println("____________________________");
+
+        // задание 2 третьей домашки урока
+
+        System.out.println("задание 2 третьей домашки урока");
+        System.out.println(".");
+
+        int multiplicationByTwo;
+        for (i=1; i<=10; i++) {
+            multiplicationByTwo = i*2;
+            System.out.println("2*"+i+"="+multiplicationByTwo);
+        }
 
         System.out.println("____________________________");
+
     }
 }
