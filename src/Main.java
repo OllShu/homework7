@@ -40,8 +40,8 @@ public class Main {
         }
         System.out.println("____________________________");
 
-        // задание 1 второй домашки урока
-        System.out.println("задание 1 второй домашки урока");
+        // задание 2 второй домашки урока
+        System.out.println("задание 2 второй домашки урока");
         System.out.println(".");
 
         capital = 15000;
@@ -49,7 +49,9 @@ public class Main {
         while (capital<=12_000_000) {
             i++;
             capital = capital + capital/100*7;
-            System.out.println("Месяц "+i+" сумма накоплений равна "+capital+" рублей");
+            if (i%6==0) {
+                System.out.println("Месяц "+i+" сумма накоплений равна "+capital+" рублей");
+            }
         }
         System.out.println("12 миллионов рублей накопит за "+i+" месяцев");
 
