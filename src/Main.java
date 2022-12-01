@@ -89,5 +89,23 @@ public class Main {
         }
 
         System.out.println("____________________________");
+
+        // задание 1 третьей домашки урока
+
+        System.out.println("задание 1 третьей домашки урока");
+        System.out.println(".");
+
+        int years=2022;
+        int pastYears = years-200;
+        int futureYears = years+100;
+        i=pastYears;
+        while (i>=pastYears && i<= futureYears) {
+            if (i%79==0) {
+                System.out.println(i);
+            } i++;
+        }
+
+
+        System.out.println("____________________________");
     }
 }
