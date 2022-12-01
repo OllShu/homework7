@@ -39,5 +39,22 @@ public class Main {
             people = people + people / 1000 * (birthRate - mortality);
         }
         System.out.println("____________________________");
+
+        // задание 1 второй домашки урока
+        System.out.println("задание 1 второй домашки урока");
+        System.out.println(".");
+
+        capital = 15000;
+        i = 0;
+        while (capital<=12_000_000) {
+            i++;
+            capital = capital + capital/100*7;
+            System.out.println("Месяц "+i+" сумма накоплений равна "+capital+" рублей");
+        }
+        System.out.println("12 миллионов рублей накопит за "+i+" месяцев");
+
+
+
+        System.out.println("____________________________");
     }
 }
